@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+i{
+    color: black;
+  }
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.areaCima {
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.areaCima .logo img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.areaGames1 {
+    padding: 20px;
+}
+
+.areaGames1 .thumbnail {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.areaGames1 .thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.areaGames1 .thumbnail:hover {
+    transform: scale(0.9);
+}
+
+.areaGames1 .thumbnail p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.rodape {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.rodape .linhaDoMeio {
+    width: 2px;
+    height: 50px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.rodape p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.pa{
+    margin-left: 26px;
+}
+.pas{
+    margin-left: 5px;
+}

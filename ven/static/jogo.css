@@ -1,0 +1,123 @@
+/*⬇ Home ⬇*/
+body{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+i{
+  color: black;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: #007bff; /* Mude a cor do link conforme necessário */
+}
+
+.areaCima {
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.areaCima .logo img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.areaGames1 {
+  padding: 20px;
+}
+
+
+.deluge img{
+  width: 20%;
+}
+
+
+
+/*⬇ GPT code (Para fazer uma tambe) ⬇*/
+.thumbnail {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.thumbnail img {
+    width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção da imagem */
+}
+
+
+.rating {
+    font-size: 0; /* Para evitar espaços entre os elementos em linha */
+  }
+
+
+  /* Estralas */
+  .star {
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .star:before {
+    content: '\2605'; /* Código Unicode para uma estrela preenchida */
+  }
+
+  .star:hover:before,
+  .star.selected:before {
+    content: '\2605'; /* Altera a cor da estrela e das estrelas anteriores ao passar o mouse ou quando já foram selecionadas */
+    color: gold;
+  }
+
+
+  .juntar1 {
+    width: 100px;
+    height: 100px;
+    /* margin-right: -90px; Ajuste o valor conforme necessário */
+  }
+
+  .juntar2 {
+    width: 99px;
+    height: 103px;
+  }
+
+  .juntar3 {
+    width: 100px;
+    height: 93px;
+    /* margin-right: -100px; */
+  }
+
+  .des{
+    height: 50%;
+  }
+  .rodape {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.rodape .linhaDoMeio {
+    width: 2px;
+    height: 50px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.rodape p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/*⬆ fim GPT code ⬆*/
+/*⬆ fim Home ⬆*/
