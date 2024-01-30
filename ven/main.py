@@ -23,36 +23,10 @@ def sobre():
 def pesquisaNaoExiste(pesquisaNaoExiste):
     return render_template("paginaNaoencontrada.html")
 
-
-
-
-
-
-
-
-
-
-
 # Teste de erros
 @app.route("/erros")
 def erros():
     return render_template("erros.html")
-
-
-# def ondeEuTo():
-#     estouAqui = str
-#     if erros == True:
-#         estouAqui = erros
-#     if sobre == True:
-#         estouAqui = sobre
-#     if jogoCallOfDulty == True:
-#         estouAqui = jogoCallOfDulty
-#     if home == True:
-#         estouAqui = home
-
-
-
-
 
 # run site
 app.run(debug=True)
